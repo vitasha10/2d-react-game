@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+
+@keyframes shaltayboltayAnime {
+    from {
+        transform: rotate(-45deg);
+    }
+    50% {
+        transform: rotate(45deg);
+    }
+    to {
+        transform: rotate(-45deg);
+    }
+}
+
+.shaltayboltay {
+    animation-name: shaltayboltayAnime;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@tailwind utilities;
