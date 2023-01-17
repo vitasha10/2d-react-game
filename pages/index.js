@@ -549,6 +549,7 @@ export default function Home() {
         '/скин5.png',
         '/скин6.png',
         '/скин7.png',
+        '/скин8.png',
     ])
     const [shipiOn, setShipi] = useState(false)
     useEffect(() => {
